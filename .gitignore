@@ -1,0 +1,36 @@
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Streamlit runtime and local secret configs
+.streamlit/secrets.toml
+
+# Environment variables file
+.env
+
+# Private HR policy documents and datasets (Keep proprietary PDFs private)
+data/hr_policies/*.pdf
+data/hr_policies/*.PDF
+*.pdf
+temp_uploads/
+
+# FAISS local vector store index files
+faiss_index/
+*.faiss
+*.pkl
+
+# Kaggle dataset downloads and generated submission files
+kaggle_data/
+*.csv
+
+# Operating System files
+.DS_Store
+Thumbs.db
